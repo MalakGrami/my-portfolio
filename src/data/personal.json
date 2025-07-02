@@ -1,0 +1,49 @@
+{
+    "name": "Malak Grami",
+    "title": "Software Engineer",
+    "tagline": "Software Engineer!",
+    "subtitle": "Your Go To.",
+    "description": "Motivated fresh Software Engineering graduate with 17 months of internship experience across diverse tech environments. Passionate about building innovative solutions and continuously learning new technologies.",
+    "profileImage": "/images/malak.png",
+    "contact": {
+      "email": "gramimalak@gmail.com",
+      "phone": "+21625427365",
+      "address": "Sousse, Tunisia",
+      "github": "https://github.com/MalakGrami",
+      "linkedin": "https://www.linkedin.com/in/grami-malak/",
+      "facebook": "https://www.facebook.com/GramiMalak",
+      "discord": "https://discord.com/users/@moka._.moka"
+    },
+    "features": [
+        {
+          "icon": "🖥️",
+          "title": "Backend Development",
+          "description": "I build robust backend systems using NestJS, Django Rest Framework, Laravel, and FastAPI. I develop RESTful APIs, implement JWT authentication, integrate machine learning models, and create microservices architecture with Redis for scalable applications."
+        },
+        {
+          "icon": "🌐",
+          "title": "Full Stack Development",
+          "description": "I create complete web applications using React + NestJS, Laravel + MySQL, and MERN stack. I handle everything from database design to user interface, implementing role-based access control and subscription management systems."
+        },
+        {
+          "icon": "📱",
+          "title": "Mobile Development",
+          "description": "I develop cross-platform mobile applications using Flutter and Firebase. I build apps with real-time chat, image sharing, social media functionality, and parent-child monitoring systems with seamless mobile-web integration."
+        },
+        {
+          "icon": "📊",
+          "title": "Business Intelligence & Analytics",
+          "description": "I create comprehensive Power BI dashboards and data visualization solutions. I develop analytics systems for business intelligence, sales tracking, and performance monitoring, leveraging my background in business intelligence."
+        },
+        {
+          "icon": "🧪",
+          "title": "Testing & Quality Assurance",
+          "description": "I implement comprehensive testing strategies using Jest for unit testing, ensure code reliability and optimize performance. I integrate testing into development workflows to maintain high-quality, robust applications."
+        },
+        {
+          "icon": "🔗",
+          "title": "API Integration & ML",
+          "description": "I specialize in integrating machine learning models into web applications using NLP and Hugging Face Transformers. I create intelligent systems like CV-job matching and develop seamless third-party API integrations."
+        }
+      ]
+    }

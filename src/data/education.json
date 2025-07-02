@@ -1,0 +1,52 @@
+{
+    "degrees": [
+      {
+        "institution": "Polytechnique Sousse",
+        "degree": "Software Engineering",
+        "period": "2022 - 2025",
+        "image": "/images/polytechnique.jpg",
+        "website": "https://www.polytech-sousse.tn/",
+        "description": "Studied advanced software engineering concepts, algorithms, system design, and modern development practices.",
+        "highlights": [
+          "⚡ Specialized in full-stack development and software architecture.",
+          "⚡ Completed various projects in web development, mobile apps, and system design.",
+          "⚡ Strong foundation in computer science fundamentals and modern technologies."
+        ]
+      },
+      {
+        "institution": "Higher Institute of Management of Sousse",
+        "degree": "Bachelor's degree in Business Intelligence",
+        "period": "2019 - 2022",
+        "image": "/images/ims.jpg",
+        "website": "https://www.ims-sousse.tn/",
+        "description": "Gained expertise in data analysis, business intelligence tools, and decision support systems.",
+        "highlights": [
+          "⚡ Studied data warehousing, data mining, and business analytics.",
+          "⚡ Learned to create comprehensive dashboards and reports using Power BI and other BI tools.",
+          "⚡ Developed skills in database management and data visualization."
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Container & Kubernetes",
+        "issuer": "IBM via Coursera",
+        "description": "Advanced containerization and orchestration concepts"
+      },
+      {
+        "name": "IT Specialist – Software Development",
+        "issuer": "Certiport",
+        "description": "Industry-standard software development certification"
+      },
+      {
+        "name": "Python Project for AI and Application Development",
+        "issuer": "IBM via Coursera", 
+        "description": "Advanced Python programming for AI applications"
+      },
+      {
+        "name": "First Prize, Start it Up 2.0 Hackathon",
+        "issuer": "Junior enterprise ENISO",
+        "description": "Winner of competitive hackathon for innovative solution"
+      }
+    ]
+  }

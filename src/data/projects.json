@@ -1,0 +1,224 @@
+{
+    "workProjects": [
+      {
+        "title": "Platform - Sport Club Management SaaS",
+        "company": "Celestial Wave Digital (CWD)",
+        "description": "Comprehensive SaaS solution for sport club management with JWT authentication, role-based permissions, subscription management, automated billing, and parent-child monitoring.",
+        "link": "https://www.alshamelasports.com/",
+        "linkType": "external",
+        "responsibilities": [
+          "Built subscription management with automated billing and invoice generation",
+          "Implemented group scheduling system and attendance tracking",
+          "Developed microservices chat architecture using Redis and notification system",
+          "Created web application (React + NestJS) and mobile app (Flutter)"
+        ],
+        "technologies": ["React", "NestJS", "Flutter", "Redis", "JWT", "Docker", "Jest", "Github"],
+        "period": "03/02/2025 – 03/06/2025",
+        "imageFolder": "alshamela",
+        "images": [
+          "add_group_interface.png",
+          "admin_dashboard_detailed.png",
+          "admin_dashboard_main.png",
+          "attendance_player_interface.png",
+          "attendance_session_interface.png",
+          "chat_conversation_info.png",
+          "chat_group_conversation.png",
+          "chat_main_interface.png",
+          "exercise_edit_interface.png",
+          "exercise_management_interface.png",
+          "group_details_interface.png",
+          "groups_main_interface.png",
+          "Image1.png",
+          "Image2.png",
+          "Image3.png",
+          "Image4.png",
+          "Image5.png",
+          "Image6.png",
+          "Image7.png",
+          "Image8.png",
+          "Image9.png",
+          "Image10.png",
+          "Image11.png",
+          "Image12.png",
+          "Image13.png",
+          "Image14.png",
+          "Image15.png",
+          "Image16.png",
+          "Image17.png",
+          "Image18.png",
+          "Image19.png",
+          "new_conversation_modal.png",
+          "notification_full_page.png",
+          "notification_popup.png",
+          "parent_child_quizzes.png",
+          "parent_child_test_results.png",
+          "parent_login_interface.png",
+          "parent_management_interface.png",
+          "permission_management_interface.png",
+          "player_dashboard.png",
+          "player_login_interface.png",
+          "player_quiz_available.png",
+          "player_quiz_taking.png",
+          "player_subscriptions_interface.png",
+          "player_test_results_dashboard.png",
+          "program_session_assignment.png",
+          "quiz_details_interface.png",
+          "quiz_evaluation_interface.png",
+          "quiz_results_overview.png",
+          "schedule_calendar_interface.png",
+          "schedule_edit_interface.png",
+          "subscription_plans_interface.png",
+          "test_details_interface.png",
+          "test_edit_interface.png",
+          "test_evaluation_interface.png",
+          "test_program_creation.png",
+          "test_program_details.png",
+          "test_program_results.png",
+          "training_program_interface.png",
+          "user_type_selection_interface.png"
+        ]
+      },
+      {
+        "title": "BSporty Admin Tools Enhancement",
+        "company": "Eden Solutions Qatar",
+        "description": "Enhanced admin tools for the BSporty platform to streamline user management and improve booking systems functionality.",
+        "link": "https://bsporty.net/",
+        "linkType": "external",
+        "responsibilities": [
+          "Designed and implemented new features for admin tools",
+          "Developed APIs for seamless mobile integration",
+          "Managed booking systems and membership purchases"
+        ],
+        "technologies": ["Laravel", "MySQL", "GitHub"],
+        "period": "15/06/2024 – 15/07/2024"
+      },
+      {
+        "title": "Caustaza Website with ML Integration",
+        "company": "Caustaza Group",
+        "description": "Developed APIs for the Caustaza and Smartovate websites, integrating machine learning models and building real-time communication systems.",
+        "link": "https://appsource.microsoft.com/fr-fr/product/web-apps/caustazagroupltd1685332664025.smartovate_id?tab=overview",
+        "linkType": "external",
+        "responsibilities": [
+          "Developed APIs integrating machine learning models",
+          "Implemented full website translation for diverse audiences",
+          "Built real-time chat system using WebSocket at Smartovate",
+          "Developed email communication features and payroll system"
+        ],
+        "technologies": ["Django Rest Framework", "Python", "WebSocket", "PostgreSQL", "Docker", "GitLab"],
+        "period": "06/2023 – 12/2023"
+      },
+      {
+        "title": "Charitable Organization Management System",
+        "company": "Cybershield Sousse",
+        "description": "Web application to streamline activity management for a charitable organization with comprehensive management features.",
+        "responsibilities": [
+          "Built centralized dashboard for activity management",
+          "Implemented comprehensive beneficiary and donor management system",
+          "Developed role-based access control with user permissions"
+        ],
+        "technologies": ["Laravel", "MySQL", "GitLab"],
+        "period": "07/2023 – 09/2023"
+      },
+      {
+        "title": "Online Classified Ads Platform",
+        "company": "Timelapse Sousse",
+        "description": "Backend system for online classified ads website inspired by leboncoin.fr with comprehensive features.",
+        "imageFolder": "echriTerbah",
+        "images": [
+            "1.jpeg",
+            "2.jpeg",
+            "3.jpeg",
+            "4.jpeg",
+            "5.jpeg",
+            "6.jpeg",
+            "7.jpeg",
+            "8.jpeg",
+            "9.jpeg",
+            "10.jpeg",
+            "11.jpeg",
+            "12.jpeg",
+            "13.jpeg",
+            "14.jpeg",
+            "15.jpeg"
+          
+          
+          
+          ],
+        "responsibilities": [
+          "Designed and implemented complete backend system",
+          "Developed APIs for user management and ad publication",
+          "Implemented advanced search with filters, real-time chat, and subscription management"
+        ],
+        "technologies": ["FastAPI", "MongoDB", "GitHub"],
+        "period": "02/2022 – 06/2022"
+      }
+    ],
+    "personalProjects": [
+      {
+        "title": "Web Scraping Tool",
+        "description": "Python tool for scraping specific data from awsolutions.fr with automated data processing and storage.",
+        "status": "Ongoing",
+        "technologies": ["Python", "BeautifulSoup", "Selenium"]
+      },
+      {
+        "title": "Real Estate Platform",
+        "description": "Building a comprehensive real estate platform for rating and buying houses/properties with advanced search and filtering.",
+        "link": "https://github.com/MalakGrami/real-estate-platform",
+        "linkType": "external",
+        "status": "Ongoing",
+        "technologies": ["React", "Node.js", "MongoDB", "Express"]
+      },
+      {
+        "title": "CV-Job Matching System",
+        "description": "Python tool using NLP (Hugging Face Transformers) for CV and job description matching, with PDF text extraction and real-time API.",
+        "link": "https://github.com/MalakGrami/jobii",
+        "linkType": "external",
+        "status": "Completed",
+        "technologies": ["Python", "FastAPI", "MySQL", "Hugging Face", "NLP"]
+      },
+      {
+        "title": "Black Friday Sales Analytics Dashboard",
+        "description": "Created a comprehensive Power BI dashboard for analyzing Black Friday sales data with interactive visualizations and insights.",
+        "link": "https://github.com/MalakGrami/sales-analytics",
+        "linkType": "external",
+        "status": "Completed",
+        "technologies": ["Power BI", "Python", "Pandas", "Data Analytics"]
+      },
+      {
+        "title": "Food Delivery System",
+        "description": "Web application for online food ordering with restaurant management, order tracking, and payment integration.",
+        "status": "Completed",
+        "technologies": ["Spring Boot", "Java", "MySQL", "React"]
+      },
+      {
+        "title": "Takyim - Enterprise Evaluation System",
+        "description": "Website for internal evaluations within an enterprise, featuring SMS notifications for events with role-based access control.",
+        "status": "Completed",
+        "technologies": ["Laravel", "MySQL", "SmsAla", "GitHub", "Azure"]
+      },
+      {
+        "title": "Mobile Image Sharing Application",
+        "description": "Mobile application for sharing images, functioning like a social media platform with real-time updates and user interactions.",
+        "link": "https://github.com/MalakGrami/image-sharing-app",
+        "linkType": "external",
+        "status": "Completed",
+        "technologies": ["Flutter", "Firebase", "Dart"]
+      },
+      {
+        "title": "Labvet-International Feature Enhancement",
+        "description": "Feature modifications on web application for laboratory food analysis with enhanced functionality and performance.",
+        "link": "https://www.labvet-international.com/",
+        "linkType": "external",
+        "status": "Completed",
+        "technologies": ["FastAPI", "Python", "MySQL", "GitHub"]
+      },
+      {
+        "title": "Web Chat Application",
+        "description": "Real-time chat application using the MERN stack with Socket.io for instant messaging and file sharing capabilities.",
+        "link": "https://github.com/MalakGrami/beho",
+        "linkType": "external",
+        "status": "Completed",
+        "technologies": ["MongoDB", "Express", "React", "Node.js", "Socket.io"]
+      }
+    ]
+  }

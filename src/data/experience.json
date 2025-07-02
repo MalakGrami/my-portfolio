@@ -1,0 +1,77 @@
+{
+    "experiences": [
+      {
+        "company": "Celestial Wave Digital (CWD)",
+        "position": "Final Year Internship - Full Stack & Mobile Developer",
+        "period": "03/02/2025 – 03/06/2025",
+        "location": "Tunisia",
+        "logo": "/images/cwd_logo.jpg",
+        "description": "Developed comprehensive SaaS solution for sport club management with advanced features and modern architecture.",
+        "responsibilities": [
+          "📌 Developed comprehensive SaaS solution for sport club management with JWT authentication and role-based permissions.",
+          "📌 Built subscription management with automated billing, player management with child assignment, and invoice generation.",
+          "📌 Implemented group scheduling system, attendance tracking, and comprehensive quiz/test evaluation with automated and manual scoring.",
+          "📌 Developed microservices chat architecture using Redis, notification system, and multiple dashboards for different user types.",
+          "📌 Created web application (React + NestJS) with parent-child monitoring and mobile app (Flutter) for players."
+        ],
+        "technologies": ["React", "NestJS", "Flutter", "Redis", "JWT", "Docker", "Jest", "Github"]
+      },
+      {
+        "company": "Eden Solutions Qatar",
+        "position": "Summer Internship - Full Stack Developer",
+        "period": "15/06/2024 – 15/07/2024",
+        "location": "Remote Work",
+        "logo": "/images/eden_logo.jpg",
+        "description": "Enhanced admin tools and developed seamless mobile integration for the BSporty platform.",
+        "responsibilities": [
+          "📌 Designed and implemented new features, enhancing admin tools for the BSporty platform to streamline user management.",
+          "📌 Developed APIs for seamless mobile integration, ensuring smooth interactions between mobile and web platforms.",
+          "📌 Managed booking systems and membership purchases, improving functionality and user experience."
+        ],
+        "technologies": ["Laravel", "MySQL", "GitHub"]
+      },
+      {
+        "company": "Caustaza Group",
+        "position": "Summer internship - Back-end Developer",
+        "period": "06/2023 – 12/2023",
+        "location": "Remote Work",
+        "logo": "/images/caustaza_logo.jpg",
+        "description": "Developed APIs and integrated machine learning models while building real-time communication systems.",
+        "responsibilities": [
+          "📌 Developed APIs for the Caustaza website, integrating machine learning models to enhance functionality and deliver seamless performance.",
+          "📌 Collaborated with the front-end team to implement full website translation, ensuring accessibility for diverse audiences.",
+          "📌 At Smartovate, built a real-time chat system using WebSocket, developed email communication features, and managed the back-end payroll system.",
+          "📌 Integrated unit testing to ensure code reliability and optimize performance."
+        ],
+        "technologies": ["Django Rest Framework", "Python", "WebSocket", "PostgreSQL", "Docker", "GitLab"]
+      },
+      {
+        "company": "Cybershield Sousse",
+        "position": "Summer internship - Full Stack Developer",
+        "period": "07/2023 – 09/2023",
+        "location": "Tunisia",
+        "logo": "/images/cybershield_logo.jpg",
+        "description": "Built web application for charitable organization with comprehensive management features.",
+        "responsibilities": [
+          "📌 Designed and developed a web application to streamline activity management for a charitable organization.",
+          "📌 Built a centralized dashboard and implemented a comprehensive beneficiary and donor management system.",
+          "📌 Developed role-based access control with user permissions to ensure secure and efficient functionality."
+        ],
+        "technologies": ["Laravel", "MySQL", "GitLab"]
+      },
+      {
+        "company": "Timelapse Sousse",
+        "position": "Final Year Project - Back-end Developer",
+        "period": "02/2022 – 06/2022",
+        "location": "Tunisia",
+        "logo": "/images/timelapse_logo.jpg",
+        "description": "Developed backend system for online classified ads platform with comprehensive features.",
+        "responsibilities": [
+          "📌 Designed and implemented the back-end system for an online classified ads website, inspired by leboncoin.fr.",
+          "📌 Developed APIs to support key features, including user management, ad publication, advanced search with filters.",
+          "📌 Implemented real-time chat, subscription management, and a favorites system."
+        ],
+        "technologies": ["FastAPI", "MongoDB", "GitHub"]
+      }
+    ]
+  }
