@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Malak Grami",
+  "name": "Malak Grami -  Full Stack Developer Portfolio",
+  "description": "Professional portfolio of Malak Grami, freelance full stack developer specializing in React, NestJS, Python, and Flutter",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,5 +22,8 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "categories": ["business", "productivity", "portfolio"],
+  "lang": "en",
+  "scope": "/"
 }
