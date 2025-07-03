@@ -163,8 +163,7 @@
       {
         "title": "Real Estate Platform",
         "description": "Building a comprehensive real estate platform for rating and buying houses/properties with advanced search and filtering.",
-        "link": "https://github.com/MalakGrami/real-estate-platform",
-        "linkType": "external",
+     
         "status": "Ongoing",
         "technologies": ["React", "Node.js", "MongoDB", "Express"]
       },
@@ -179,8 +178,7 @@
       {
         "title": "Black Friday Sales Analytics Dashboard",
         "description": "Created a comprehensive Power BI dashboard for analyzing Black Friday sales data with interactive visualizations and insights.",
-        "link": "https://github.com/MalakGrami/sales-analytics",
-        "linkType": "external",
+       
         "status": "Completed",
         "technologies": ["Power BI", "Python", "Pandas", "Data Analytics"]
       },
