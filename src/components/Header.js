@@ -1,6 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Sun, Moon, Menu, X, Github, Linkedin, Facebook, MessageCircle } from 'lucide-react';
+import { 
+  Sun, 
+  Moon, 
+  Menu, 
+  X, 
+  Github, 
+  Linkedin, 
+  Facebook, 
+  MessageCircle,
+  Home,
+  GraduationCap,
+  Briefcase,
+  FolderOpen,
+  Phone,
+  FileText
+} from 'lucide-react';
 import personalData from '../data/personal.json';
 
 const Header = () => {
@@ -29,11 +44,12 @@ const Header = () => {
   };
 
   const navigation = [
-    { name: '👨🏼‍🎓 Education & Certifications', path: '/education' },
-    { name: '👨🏼‍💻 Work Experience', path: '/experience' },
-    { name: '💼 Portfolio Pieces', path: '/projects' },
-    { name: '📞 Contact & Resume', path: '/contact' },
-    { name: 'ℹ️ Blog', path: '/blog' }
+    { name: 'Home', path: '/', icon: Home },
+    { name: 'Education & Certifications', path: '/education', icon: GraduationCap },
+    { name: 'Work Experience', path: '/experience', icon: Briefcase },
+    { name: 'Portfolio Pieces', path: '/projects', icon: FolderOpen },
+    { name: 'Contact & Resume', path: '/contact', icon: Phone },
+    { name: 'Blog', path: '/blog', icon: FileText }
   ];
 
   const socialLinks = [
@@ -46,22 +62,22 @@ const Header = () => {
   return (
     <header className="nav-container">
       <div className="nav-content">
-        <Link to="/" className="nav-logo">
-          <img src={personalData.profileImage} alt={personalData.name} />
-          <span>{personalData.name}</span>
-        </Link>
 
         {/* Desktop Navigation */}
         <nav className="nav-menu">
-          {navigation.map((item) => (
-            <Link
-              key={item.path}
-              to={item.path}
-              className={`nav-item ${location.pathname === item.path ? 'active' : ''}`}
-            >
-              {item.name}
-            </Link>
-          ))}
+          {navigation.slice(0).map((item) => {
+            const IconComponent = item.icon;
+            return (
+              <Link
+                key={item.path}
+                to={item.path}
+                className={`nav-item ${location.pathname === item.path ? 'active' : ''}`}
+              >
+                <IconComponent size={16} />
+                {item.name}
+              </Link>
+            );
+          })}
           
           <button onClick={toggleTheme} className="theme-toggle">
             {isDark ? <Sun size={18} /> : <Moon size={18} />}
@@ -77,7 +93,7 @@ const Header = () => {
                 className="social-link"
                 aria-label={social.label}
               >
-                <social.icon size={18} />
+                <social.icon size={16} />
               </a>
             ))}
           </div>
@@ -97,16 +113,20 @@ const Header = () => {
       {isMobileMenuOpen && (
         <div className="mobile-menu">
           <div className="mobile-menu-content">
-            {navigation.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                className={`nav-item ${location.pathname === item.path ? 'active' : ''}`}
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {item.name}
-              </Link>
-            ))}
+            {navigation.map((item) => {
+              const IconComponent = item.icon;
+              return (
+                <Link
+                  key={item.path}
+                  to={item.path}
+                  className={`nav-item ${location.pathname === item.path ? 'active' : ''}`}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <IconComponent size={18} />
+                  {item.name}
+                </Link>
+              );
+            })}
             
             <div className="mobile-theme-social">
               <button onClick={toggleTheme} className="theme-toggle">
@@ -123,7 +143,7 @@ const Header = () => {
                     className="social-link"
                     aria-label={social.label}
                   >
-                    <social.icon size={18} />
+                    <social.icon size={16} />
                   </a>
                 ))}
               </div>
