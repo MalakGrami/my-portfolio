@@ -1,9 +1,25 @@
 {
     "experiences": [
       {
+        "company": "Xlainer",
+        "position": "Software Engineer",
+        "period": "August 2025 – Present",
+        "location": "Sfax - Tunisia",
+        "logo": "/xlainer.jpg",
+        "description": "Working as a full-stack software engineer developing modern web applications using cutting-edge technologies.",
+        "responsibilities": [
+          "📌 Developing frontend applications using Next.js with TypeScript for modern, responsive user interfaces.",
+          "📌 Building robust backend APIs using Django framework with PostgreSQL database integration.",
+          "📌 Implementing containerized solutions using Docker for efficient deployment and scalability.",
+          "📌 Collaborating with cross-functional teams to deliver high-quality software solutions.",
+          "📌 Maintaining code quality through testing, code reviews, and best practices implementation."
+        ],
+        "technologies": ["Next.js", "TypeScript", "Django", "PostgreSQL", "Docker", "Git"]
+      },
+      {
         "company": "Celestial Wave Digital (CWD)",
-        "position": "Final Year Internship - Full Stack & Mobile Developer",
-        "period": "03/02/2025 – 03/06/2025",
+        "position": "Software Engineer Internship - Full Stack & Mobile Developer",
+        "period": "February 2025 – June 2025",
         "location": "Tunisia",
         "logo": "/images/cwd_logo.jpg",
         "description": "Developed comprehensive SaaS solution for sport club management with advanced features and modern architecture.",

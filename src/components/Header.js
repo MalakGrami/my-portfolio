@@ -45,10 +45,10 @@ const Header = () => {
 
   const navigation = [
     { name: 'Home', path: '/', icon: Home },
-    { name: 'Education & Certifications', path: '/education', icon: GraduationCap },
-    { name: 'Work Experience', path: '/experience', icon: Briefcase },
-    { name: 'Portfolio Pieces', path: '/projects', icon: FolderOpen },
-    { name: 'Contact & Resume', path: '/contact', icon: Phone },
+    { name: 'Education', path: '/education', icon: GraduationCap },
+    { name: 'Experience', path: '/experience', icon: Briefcase },
+    { name: 'Projects', path: '/projects', icon: FolderOpen },
+    { name: 'Contact', path: '/contact', icon: Phone },
     { name: 'Blog', path: '/blog', icon: FileText }
   ];
 

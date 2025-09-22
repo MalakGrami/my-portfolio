@@ -9,9 +9,10 @@ const Experience = () => {
       <section>
         <h2 className="section-title">👀 Work, Internship, and Volunteership</h2>
         <p style={{ color: 'var(--text-secondary)', lineHeight: '1.7', marginBottom: '2rem' }}>
-          As a <strong>Software Engineer</strong>, I have worked on real projects for over <strong>17+ months</strong>. 
-          Successfully satisfied customers throughout my career by consistently delivering high-quality solutions and 
-          exceptional service while collaborating with amazing individuals.
+          As a <strong>Software Engineer</strong>, I have gained extensive experience working on diverse projects across 
+          multiple companies and technologies. From backend development with Django and FastAPI to full-stack solutions 
+          using React and NestJS, I have consistently delivered high-quality software solutions while collaborating 
+          with talented teams and satisfying clients' requirements.
         </p>
       </section>
 
